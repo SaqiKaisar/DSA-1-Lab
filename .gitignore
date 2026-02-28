@@ -1,0 +1,19 @@
+# Ignore executables
+*.exe
+*.out
+*.o
+*.obj
+
+# Ignore default GCC output
+a.exe
+a.out
+
+# Ignore build folders
+/build/
+/bin/
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore temporary files
+*.log

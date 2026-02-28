@@ -4,7 +4,7 @@
 #define MAX_SIZE 100
 bool flag;
 
-void selectionSort(int arr[], int n)
+void bubbleSort(int arr[], int n)
 {
     int i, j;
     for (i = 0; i < n - 1; i++) {
@@ -44,7 +44,7 @@ int main()
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    selectionSort(arr, n);
+    bubbleSort(arr, n);
     printf("Sorted Array: \n");
     printArray(arr, n);
     return 0;
